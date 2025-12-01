@@ -1,0 +1,61 @@
+# ========================
+# Maven / Java
+# ========================
+target/
+*.class
+*.log
+
+# NO ignorar wrapper de Maven
+!.mvn/wrapper/maven-wrapper.jar
+
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ========================
+# Spring Tools Suite (STS)
+# ========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+
+# ========================
+# NetBeans
+# ========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+
+# ========================
+# Archivos del sistema
+# ========================
+.DS_Store
+Thumbs.db
+
+
+# ========================
+# Archivos sensibles
+# ========================
+uploads/
+application.properties
